@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+<script>
+    var inputCelsius;
+    var inputFahrenheit;
+    inputCelsius = prompt("Nhập giá trị độ C:");
+    inputFahrenheit = prompt("Nhập giá trị độ F: " );
+    var C = parseInt(inputCelsius);
+    var F = parseInt(inputFahrenheit);
+    var C = (5/9)*(F - 32);
+    document.write("C = " + C);
+    var F = (160 + C)/45;
+    document.write("F = " + F);
+
+</script>
+</body>
+</html>
